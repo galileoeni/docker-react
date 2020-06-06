@@ -9,3 +9,4 @@ before_install :
 script :
   - docker run galileoeni/docker-react npm run test -- --coverage
 
+kill $(jobs -p)
