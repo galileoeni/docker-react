@@ -7,5 +7,5 @@ before_install :
 
 
 script :
-  - docker run galileoeni/docker-react npm run test -- -- coverage
+  - docker run galileoeni/docker-react npm run test -- --coverage
 
